@@ -23,6 +23,6 @@ public class DemoController {
 
     @GetMapping("/admin/data")
     public String getDemoAdminData() {
-        return "Administrator Demo Data";
+        return "Administrator Demo Data. This is a local Commit";
     }
 }
