@@ -23,6 +23,6 @@ public class DemoController {
 
     @GetMapping("/admin/data")
     public String getDemoAdminData() {
-        return "Admin Demo Data";
+        return "Administrator Demo Data";
     }
 }
