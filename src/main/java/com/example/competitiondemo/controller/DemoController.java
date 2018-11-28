@@ -12,7 +12,7 @@ public class DemoController {
 
     @GetMapping("/api/public")
     public String getDemoData() {
-        return "Public Demo Data";
+        return "Public Demo";
     }
 
     @PreAuthorize("hasRole('ROLE_ADMIN')")
