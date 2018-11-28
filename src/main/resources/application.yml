@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: authservice-demo
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: linusis1GOODmanmysql
+        url: jdbc:mysql://localhost/zuelcup
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+server:
+    port: 8080
+app:
+    jwtSecret: Kant
+    jwtExpirationInMs: 600000
